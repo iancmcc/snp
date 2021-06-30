@@ -6,7 +6,7 @@
 go get -u github.com/iancmcc/snp
 ```
 
-Or download one on the releasea
+Or download the appropriate artifact for your platform from the [Releases](https://github.com/iancmcc/snp/releases).
 
 ## Usage
 
