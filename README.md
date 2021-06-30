@@ -1,7 +1,7 @@
 # snp: command-line Snappy
 
 ```
-Usage of ./snp:
+Usage of snp:
   -b    Output compressed data as binary instead of a base64-encoded string
   -d    Decode from stdin
 ```
@@ -18,16 +18,16 @@ first if detected.
 ```
 # Note base64 output by default
 
-$ echo "Hi There" | ./snp
+$ echo "Hi There" | snp
 CSBIaSBUaGVyZQo=
 
 # Note automatic base64 decoding
 
-$ echo "Hi There" | ./snp | ./snp -d
+$ echo "Hi There" | snp | snp -d
 Hi There
 
 # Also decodes when it's straight binary
 
-$ echo "Hi There" | ./snp -b | ./snp -d
+$ echo "Hi There" | snp -b | snp -d
 Hi There
 ```
