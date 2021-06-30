@@ -15,7 +15,7 @@ first if detected.
 
 ## Example
 
-```
+```sh
 # Note base64 output by default
 
 $ echo "Hi There" | snp
